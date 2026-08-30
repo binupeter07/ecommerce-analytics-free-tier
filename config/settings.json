@@ -1,0 +1,14 @@
+{
+  "region": "eu-west-1",
+  "sqs_queue_url": "https://sqs.eu-west-1.amazonaws.com/YOUR_ACCOUNT_ID/ecommerce-queue",
+  "s3_bucket": "your-s3-bucket-name",
+  "dynamodb_table": "analytics-table",
+  "lambda_function_name": "analytics-lambda",
+
+  "batch_size": 10,
+  "batch_window_seconds": 0,
+
+  "max_pack_events": 120,
+  "pack_window_seconds": 13,
+  "max_payload_bytes": 60000
+}
